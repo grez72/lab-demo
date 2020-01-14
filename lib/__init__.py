@@ -1,9 +1,11 @@
 from fastai2.vision.all import *
 from fastai2.vision.widgets import *
+from torchvision import models
 
 from IPython.core.debugger import set_trace
 
 from .data import *
+from .similarity import *
 
 btn_upload = widgets.FileUpload()
 out_pl = widgets.Output()

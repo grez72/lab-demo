@@ -107,4 +107,6 @@ def compute_similarity(model, dataset):
 
             pair_num += 1
 
+    df.pair_num = df.pair_num.astype(int)
+
     return df

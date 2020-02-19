@@ -6,6 +6,7 @@ from IPython.core.debugger import set_trace
 
 from .data import *
 from .similarity import *
+from .plotting import *
 
 btn_upload = widgets.FileUpload()
 out_pl = widgets.Output()
